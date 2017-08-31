@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73405C591F5823AF0043C794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C581F5823AF0043C794 /* AppDelegate.swift */; };
+		73405C5B1F5823AF0043C794 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C5A1F5823AF0043C794 /* MainViewController.swift */; };
+		73405C601F5823AF0043C794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73405C5F1F5823AF0043C794 /* Assets.xcassets */; };
+		73405C631F5823AF0043C794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73405C611F5823AF0043C794 /* LaunchScreen.storyboard */; };
+		73405C6E1F5823AF0043C794 /* Kcal4LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C6D1F5823AF0043C794 /* Kcal4LifeTests.swift */; };
+		73405C791F5823AF0043C794 /* Kcal4LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C781F5823AF0043C794 /* Kcal4LifeUITests.swift */; };
+		73AC4C5E1F5835A300527B83 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AC4C5D1F5835A300527B83 /* MainViewController.xib */; };
+		73DB43DF1F58381E00BA4CB6 /* AddIngredientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB43DE1F58381E00BA4CB6 /* AddIngredientRowView.swift */; };
+		C978491EC5D7B20928FEC660 /* Pods_Kcal4Life.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F362F79BC10729C5D50018A8 /* Pods_Kcal4Life.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73405C6A1F5823AF0043C794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73405C4D1F5823AF0043C794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73405C541F5823AF0043C794;
+			remoteInfo = Kcal4Life;
+		};
+		73405C751F5823AF0043C794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73405C4D1F5823AF0043C794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73405C541F5823AF0043C794;
+			remoteInfo = Kcal4Life;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CF950859F0CE5525F3A40E /* Pods-Kcal4Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kcal4Life.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kcal4Life/Pods-Kcal4Life.release.xcconfig"; sourceTree = "<group>"; };
+		73405C551F5823AF0043C794 /* Kcal4Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kcal4Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73405C581F5823AF0043C794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73405C5A1F5823AF0043C794 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		73405C5F1F5823AF0043C794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73405C621F5823AF0043C794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73405C641F5823AF0043C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73405C691F5823AF0043C794 /* Kcal4LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kcal4LifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73405C6D1F5823AF0043C794 /* Kcal4LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kcal4LifeTests.swift; sourceTree = "<group>"; };
+		73405C6F1F5823AF0043C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73405C741F5823AF0043C794 /* Kcal4LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kcal4LifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73405C781F5823AF0043C794 /* Kcal4LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kcal4LifeUITests.swift; sourceTree = "<group>"; };
+		73405C7A1F5823AF0043C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AC4C5D1F5835A300527B83 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		73DB43DE1F58381E00BA4CB6 /* AddIngredientRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddIngredientRowView.swift; path = SimpleViews/AddIngredientRowView.swift; sourceTree = "<group>"; };
+		9A85D9AE1446877310B23DFE /* Pods-Kcal4Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kcal4Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kcal4Life/Pods-Kcal4Life.debug.xcconfig"; sourceTree = "<group>"; };
+		F362F79BC10729C5D50018A8 /* Pods_Kcal4Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kcal4Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73405C521F5823AF0043C794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C978491EC5D7B20928FEC660 /* Pods_Kcal4Life.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C661F5823AF0043C794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C711F5823AF0043C794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FC6DE7004C440ECC5F5355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A85D9AE1446877310B23DFE /* Pods-Kcal4Life.debug.xcconfig */,
+				07CF950859F0CE5525F3A40E /* Pods-Kcal4Life.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73405C4C1F5823AF0043C794 = {
+			isa = PBXGroup;
+			children = (
+				73405C571F5823AF0043C794 /* Kcal4Life */,
+				73405C6C1F5823AF0043C794 /* Kcal4LifeTests */,
+				73405C771F5823AF0043C794 /* Kcal4LifeUITests */,
+				73405C561F5823AF0043C794 /* Products */,
+				16FC6DE7004C440ECC5F5355 /* Pods */,
+				DDE805BB1A2E183FEF544678 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73405C561F5823AF0043C794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73405C551F5823AF0043C794 /* Kcal4Life.app */,
+				73405C691F5823AF0043C794 /* Kcal4LifeTests.xctest */,
+				73405C741F5823AF0043C794 /* Kcal4LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73405C571F5823AF0043C794 /* Kcal4Life */ = {
+			isa = PBXGroup;
+			children = (
+				73DB43E01F58392A00BA4CB6 /* Extensions */,
+				73DB43DD1F58372F00BA4CB6 /* SimpleViews */,
+				73405C581F5823AF0043C794 /* AppDelegate.swift */,
+				73405C5A1F5823AF0043C794 /* MainViewController.swift */,
+				73AC4C5D1F5835A300527B83 /* MainViewController.xib */,
+				73405C5F1F5823AF0043C794 /* Assets.xcassets */,
+				73405C611F5823AF0043C794 /* LaunchScreen.storyboard */,
+				73405C641F5823AF0043C794 /* Info.plist */,
+			);
+			path = Kcal4Life;
+			sourceTree = "<group>";
+		};
+		73405C6C1F5823AF0043C794 /* Kcal4LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				73405C6D1F5823AF0043C794 /* Kcal4LifeTests.swift */,
+				73405C6F1F5823AF0043C794 /* Info.plist */,
+			);
+			path = Kcal4LifeTests;
+			sourceTree = "<group>";
+		};
+		73405C771F5823AF0043C794 /* Kcal4LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73405C781F5823AF0043C794 /* Kcal4LifeUITests.swift */,
+				73405C7A1F5823AF0043C794 /* Info.plist */,
+			);
+			path = Kcal4LifeUITests;
+			sourceTree = "<group>";
+		};
+		73DB43DD1F58372F00BA4CB6 /* SimpleViews */ = {
+			isa = PBXGroup;
+			children = (
+				73DB43DE1F58381E00BA4CB6 /* AddIngredientRowView.swift */,
+			);
+			name = SimpleViews;
+			sourceTree = "<group>";
+		};
+		73DB43E01F58392A00BA4CB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DDE805BB1A2E183FEF544678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F362F79BC10729C5D50018A8 /* Pods_Kcal4Life.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73405C541F5823AF0043C794 /* Kcal4Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73405C7D1F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4Life" */;
+			buildPhases = (
+				35E28F0944E7F60D85443868 /* [CP] Check Pods Manifest.lock */,
+				73405C511F5823AF0043C794 /* Sources */,
+				73405C521F5823AF0043C794 /* Frameworks */,
+				73405C531F5823AF0043C794 /* Resources */,
+				3B586FF945907520685D35F5 /* [CP] Embed Pods Frameworks */,
+				7AF3BDA7AC8F98766DC92CEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kcal4Life;
+			productName = Kcal4Life;
+			productReference = 73405C551F5823AF0043C794 /* Kcal4Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73405C681F5823AF0043C794 /* Kcal4LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73405C801F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4LifeTests" */;
+			buildPhases = (
+				73405C651F5823AF0043C794 /* Sources */,
+				73405C661F5823AF0043C794 /* Frameworks */,
+				73405C671F5823AF0043C794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73405C6B1F5823AF0043C794 /* PBXTargetDependency */,
+			);
+			name = Kcal4LifeTests;
+			productName = Kcal4LifeTests;
+			productReference = 73405C691F5823AF0043C794 /* Kcal4LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73405C731F5823AF0043C794 /* Kcal4LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73405C831F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4LifeUITests" */;
+			buildPhases = (
+				73405C701F5823AF0043C794 /* Sources */,
+				73405C711F5823AF0043C794 /* Frameworks */,
+				73405C721F5823AF0043C794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73405C761F5823AF0043C794 /* PBXTargetDependency */,
+			);
+			name = Kcal4LifeUITests;
+			productName = Kcal4LifeUITests;
+			productReference = 73405C741F5823AF0043C794 /* Kcal4LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73405C4D1F5823AF0043C794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Samu Mukkala";
+				TargetAttributes = {
+					73405C541F5823AF0043C794 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 27Z8HMMA69;
+						ProvisioningStyle = Automatic;
+					};
+					73405C681F5823AF0043C794 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 27Z8HMMA69;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 73405C541F5823AF0043C794;
+					};
+					73405C731F5823AF0043C794 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 27Z8HMMA69;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 73405C541F5823AF0043C794;
+					};
+				};
+			};
+			buildConfigurationList = 73405C501F5823AF0043C794 /* Build configuration list for PBXProject "Kcal4Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73405C4C1F5823AF0043C794;
+			productRefGroup = 73405C561F5823AF0043C794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73405C541F5823AF0043C794 /* Kcal4Life */,
+				73405C681F5823AF0043C794 /* Kcal4LifeTests */,
+				73405C731F5823AF0043C794 /* Kcal4LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73405C531F5823AF0043C794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73405C631F5823AF0043C794 /* LaunchScreen.storyboard in Resources */,
+				73AC4C5E1F5835A300527B83 /* MainViewController.xib in Resources */,
+				73405C601F5823AF0043C794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C671F5823AF0043C794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C721F5823AF0043C794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E28F0944E7F60D85443868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B586FF945907520685D35F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kcal4Life/Pods-Kcal4Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF3BDA7AC8F98766DC92CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kcal4Life/Pods-Kcal4Life-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73405C511F5823AF0043C794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73405C5B1F5823AF0043C794 /* MainViewController.swift in Sources */,
+				73DB43DF1F58381E00BA4CB6 /* AddIngredientRowView.swift in Sources */,
+				73405C591F5823AF0043C794 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C651F5823AF0043C794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73405C6E1F5823AF0043C794 /* Kcal4LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73405C701F5823AF0043C794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73405C791F5823AF0043C794 /* Kcal4LifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73405C6B1F5823AF0043C794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73405C541F5823AF0043C794 /* Kcal4Life */;
+			targetProxy = 73405C6A1F5823AF0043C794 /* PBXContainerItemProxy */;
+		};
+		73405C761F5823AF0043C794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73405C541F5823AF0043C794 /* Kcal4Life */;
+			targetProxy = 73405C751F5823AF0043C794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73405C611F5823AF0043C794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73405C621F5823AF0043C794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73405C7B1F5823AF0043C794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73405C7C1F5823AF0043C794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73405C7E1F5823AF0043C794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A85D9AE1446877310B23DFE /* Pods-Kcal4Life.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		73405C7F1F5823AF0043C794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CF950859F0CE5525F3A40E /* Pods-Kcal4Life.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		73405C811F5823AF0043C794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4LifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kcal4Life.app/Kcal4Life";
+			};
+			name = Debug;
+		};
+		73405C821F5823AF0043C794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4LifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kcal4Life.app/Kcal4Life";
+			};
+			name = Release;
+		};
+		73405C841F5823AF0043C794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4LifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4LifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kcal4Life;
+			};
+			name = Debug;
+		};
+		73405C851F5823AF0043C794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 27Z8HMMA69;
+				INFOPLIST_FILE = Kcal4LifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smaum.Kcal4LifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kcal4Life;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73405C501F5823AF0043C794 /* Build configuration list for PBXProject "Kcal4Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73405C7B1F5823AF0043C794 /* Debug */,
+				73405C7C1F5823AF0043C794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73405C7D1F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73405C7E1F5823AF0043C794 /* Debug */,
+				73405C7F1F5823AF0043C794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73405C801F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73405C811F5823AF0043C794 /* Debug */,
+				73405C821F5823AF0043C794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73405C831F5823AF0043C794 /* Build configuration list for PBXNativeTarget "Kcal4LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73405C841F5823AF0043C794 /* Debug */,
+				73405C851F5823AF0043C794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73405C4D1F5823AF0043C794 /* Project object */;
+}
