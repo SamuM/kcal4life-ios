@@ -14,6 +14,7 @@
 		73405C6E1F5823AF0043C794 /* Kcal4LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C6D1F5823AF0043C794 /* Kcal4LifeTests.swift */; };
 		73405C791F5823AF0043C794 /* Kcal4LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73405C781F5823AF0043C794 /* Kcal4LifeUITests.swift */; };
 		73AC4C5E1F5835A300527B83 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AC4C5D1F5835A300527B83 /* MainViewController.xib */; };
+		73DB43E71F584B7D00BA4CB6 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB43E61F584B7D00BA4CB6 /* Ingredient.swift */; };
 		C978491EC5D7B20928FEC660 /* Pods_Kcal4Life.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F362F79BC10729C5D50018A8 /* Pods_Kcal4Life.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		73405C781F5823AF0043C794 /* Kcal4LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kcal4LifeUITests.swift; sourceTree = "<group>"; };
 		73405C7A1F5823AF0043C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AC4C5D1F5835A300527B83 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		73DB43E61F584B7D00BA4CB6 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ingredient.swift; path = Models/Ingredient.swift; sourceTree = "<group>"; };
 		9A85D9AE1446877310B23DFE /* Pods-Kcal4Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kcal4Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kcal4Life/Pods-Kcal4Life.debug.xcconfig"; sourceTree = "<group>"; };
 		F362F79BC10729C5D50018A8 /* Pods_Kcal4Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kcal4Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		73405C571F5823AF0043C794 /* Kcal4Life */ = {
 			isa = PBXGroup;
 			children = (
+				73DB43E51F584B5A00BA4CB6 /* Models */,
 				73DB43E01F58392A00BA4CB6 /* Extensions */,
 				73DB43DD1F58372F00BA4CB6 /* SimpleViews */,
 				73405C581F5823AF0043C794 /* AppDelegate.swift */,
@@ -155,6 +158,14 @@
 			children = (
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		73DB43E51F584B5A00BA4CB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73DB43E61F584B7D00BA4CB6 /* Ingredient.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		DDE805BB1A2E183FEF544678 /* Frameworks */ = {
@@ -355,6 +366,7 @@
 			files = (
 				73405C5B1F5823AF0043C794 /* MainViewController.swift in Sources */,
 				73405C591F5823AF0043C794 /* AppDelegate.swift in Sources */,
+				73DB43E71F584B7D00BA4CB6 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
