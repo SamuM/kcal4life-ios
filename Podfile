@@ -5,5 +5,6 @@ use_frameworks!
 target 'Kcal4Life' do
         pod 'Alamofire', '~> 4.4'
         pod 'ObjectMapper', '~> 2.2'
+        pod 'SnapKit', '~> 3.2.0'
 end
 
