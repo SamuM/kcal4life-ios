@@ -10,7 +10,15 @@ import UIKit
 
 class MainViewController: UIViewController {
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var creationContainer: UIView!
+
     var ingredients: [Ingredient] = []
+    
+    enum SegmentVisible: Int {
+        case add = 0
+        case create = 1
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +33,17 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
+    @IBAction func segmentedControlAction(_ sender: Any) {
+        guard let visibleView = SegmentVisible.init(rawValue: segmentedControl.selectedSegmentIndex) else { return }
+
+        switch visibleView {
+        case SegmentVisible.add:
+            print("Add ingredient")
+        case SegmentVisible.create:
+            print("Create ingredient")
+        }
+    }
     
     private func testFoods() {
         for i in  0...9 {

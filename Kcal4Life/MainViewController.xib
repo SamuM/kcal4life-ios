@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Kcal4Life" customModuleProvider="target">
             <connections>
+                <outlet property="creationContainer" destination="XNN-4K-4h8" id="NiW-QJ-Egv"/>
+                <outlet property="segmentedControl" destination="HOa-y1-ZoX" id="hEW-wP-pnl"/>
                 <outlet property="view" destination="iN0-l3-epB" id="0b5-1P-bKc"/>
             </connections>
         </placeholder>
@@ -20,18 +22,27 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNN-4K-4h8">
-                    <rect key="frame" x="0.0" y="55" width="375" height="120"/>
+                    <rect key="frame" x="0.0" y="64" width="375" height="120"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVh-RX-IF6">
-                            <rect key="frame" x="166" y="0.0" width="42" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HOa-y1-ZoX">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="BlM-H8-kuc"/>
+                            </constraints>
+                            <segments>
+                                <segment title="Add"/>
+                                <segment title="Create"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedControlAction:" destination="-1" eventType="valueChanged" id="4yU-9m-8G3"/>
+                            </connections>
+                        </segmentedControl>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
+                        <constraint firstAttribute="trailing" secondItem="HOa-y1-ZoX" secondAttribute="trailing" id="2be-t0-XGT"/>
+                        <constraint firstItem="HOa-y1-ZoX" firstAttribute="leading" secondItem="XNN-4K-4h8" secondAttribute="leading" id="58W-sU-vsl"/>
+                        <constraint firstItem="HOa-y1-ZoX" firstAttribute="top" secondItem="XNN-4K-4h8" secondAttribute="top" id="S0h-Cp-h02"/>
                         <constraint firstAttribute="height" constant="120" id="asB-bW-EoG"/>
                     </constraints>
                 </view>
@@ -40,8 +51,9 @@
             <constraints>
                 <constraint firstItem="XNN-4K-4h8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OT0-sN-sVw"/>
                 <constraint firstAttribute="trailing" secondItem="XNN-4K-4h8" secondAttribute="trailing" id="QSb-kJ-V4c"/>
-                <constraint firstItem="XNN-4K-4h8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="55" id="bwv-K1-E6l"/>
+                <constraint firstItem="XNN-4K-4h8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="bwv-K1-E6l"/>
             </constraints>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
         </view>
     </objects>
 </document>
