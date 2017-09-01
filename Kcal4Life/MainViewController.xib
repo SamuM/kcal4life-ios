@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Kcal4Life" customModuleProvider="target">
             <connections>
+                <outlet property="addIngredientContainer" destination="pg3-pR-kyD" id="nB7-0Z-hih"/>
+                <outlet property="createIngredientContainer" destination="TDN-9E-QBv" id="hHW-x1-KtE"/>
                 <outlet property="creationContainer" destination="XNN-4K-4h8" id="NiW-QJ-Egv"/>
                 <outlet property="segmentedControl" destination="HOa-y1-ZoX" id="hEW-wP-pnl"/>
                 <outlet property="view" destination="iN0-l3-epB" id="0b5-1P-bKc"/>
@@ -37,13 +39,29 @@
                                 <action selector="segmentedControlAction:" destination="-1" eventType="valueChanged" id="4yU-9m-8G3"/>
                             </connections>
                         </segmentedControl>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDN-9E-QBv">
+                            <rect key="frame" x="0.0" y="36" width="375" height="76"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pg3-pR-kyD">
+                            <rect key="frame" x="0.0" y="36" width="375" height="76"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="HOa-y1-ZoX" secondAttribute="trailing" id="2be-t0-XGT"/>
+                        <constraint firstAttribute="bottom" secondItem="pg3-pR-kyD" secondAttribute="bottom" constant="8" id="2dN-Y8-XQ3"/>
+                        <constraint firstItem="pg3-pR-kyD" firstAttribute="top" secondItem="HOa-y1-ZoX" secondAttribute="bottom" constant="8" id="4kL-cG-fDZ"/>
                         <constraint firstItem="HOa-y1-ZoX" firstAttribute="leading" secondItem="XNN-4K-4h8" secondAttribute="leading" id="58W-sU-vsl"/>
+                        <constraint firstItem="TDN-9E-QBv" firstAttribute="leading" secondItem="XNN-4K-4h8" secondAttribute="leading" id="Eg4-rE-kO5"/>
+                        <constraint firstItem="pg3-pR-kyD" firstAttribute="leading" secondItem="XNN-4K-4h8" secondAttribute="leading" id="Lol-bz-LD2"/>
                         <constraint firstItem="HOa-y1-ZoX" firstAttribute="top" secondItem="XNN-4K-4h8" secondAttribute="top" id="S0h-Cp-h02"/>
                         <constraint firstAttribute="height" constant="120" id="asB-bW-EoG"/>
+                        <constraint firstAttribute="trailing" secondItem="TDN-9E-QBv" secondAttribute="trailing" id="jtv-TP-Qkd"/>
+                        <constraint firstItem="TDN-9E-QBv" firstAttribute="top" secondItem="HOa-y1-ZoX" secondAttribute="bottom" constant="8" id="p5K-Yh-IYm"/>
+                        <constraint firstAttribute="bottom" secondItem="TDN-9E-QBv" secondAttribute="bottom" constant="8" id="usb-ea-6Ya"/>
+                        <constraint firstAttribute="trailing" secondItem="pg3-pR-kyD" secondAttribute="trailing" id="yqU-YK-PHa"/>
                     </constraints>
                 </view>
             </subviews>

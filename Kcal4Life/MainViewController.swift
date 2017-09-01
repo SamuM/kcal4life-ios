@@ -9,12 +9,15 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    
+
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var creationContainer: UIView!
+    @IBOutlet weak var addIngredientContainer: UIView!
+    @IBOutlet weak var createIngredientContainer: UIView!
+    
 
     var ingredients: [Ingredient] = []
-    
+
     enum SegmentVisible: Int {
         case add = 0
         case create = 1
@@ -22,10 +25,12 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        view.backgroundColor = UIColor.white
+
         title = "Kcal4Life"
+
+        createIngredientContainer.isHidden = true
         
+
         testFoods()
     }
 
@@ -44,10 +49,15 @@ class MainViewController: UIViewController {
             print("Create ingredient")
         }
     }
-    
+
+    private func showSegmentedControll(view: SegmentVisible) {
+        
+        
+    }
+
     private func testFoods() {
         for i in  0...9 {
-           var ingredient = Ingredient()
+            var ingredient = Ingredient()
             ingredient.name = "Food\(i)"
             ingredient.carbs = 10
             ingredient.fat = 20
@@ -56,7 +66,6 @@ class MainViewController: UIViewController {
             ingredients.append(ingredient)
         }
     }
-
 
 }
 
