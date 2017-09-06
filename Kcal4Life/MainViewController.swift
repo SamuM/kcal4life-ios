@@ -42,17 +42,18 @@ class MainViewController: UIViewController {
     @IBAction func segmentedControlAction(_ sender: Any) {
         guard let visibleView = SegmentVisible.init(rawValue: segmentedControl.selectedSegmentIndex) else { return }
 
-        switch visibleView {
-        case SegmentVisible.add:
-            print("Add ingredient")
-        case SegmentVisible.create:
-            print("Create ingredient")
-        }
+        showSegmented(view: visibleView)
     }
 
-    private func showSegmentedControll(view: SegmentVisible) {
-        
-        
+    private func showSegmented(view: SegmentVisible) {
+        switch view {
+        case SegmentVisible.add:
+            addIngredientContainer.isHidden = false
+            createIngredientContainer.isHidden = true
+        case SegmentVisible.create:
+            addIngredientContainer.isHidden = true
+            createIngredientContainer.isHidden = false
+        }
     }
 
     private func testFoods() {
